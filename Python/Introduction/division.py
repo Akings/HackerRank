@@ -34,13 +34,9 @@ Output::
 """
 
 
-from __future__ import division, print_function
-
-
 def main():
-    """Division challenge."""
-    first_int = int(raw_input())
-    second_int = int(raw_input())
+    first_int = int(input())
+    second_int = int(input())
     print(first_int // second_int)
     print(first_int / second_int)
 
