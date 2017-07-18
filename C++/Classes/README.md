@@ -211,12 +211,12 @@ Overload the operator `<` for the class `Box`. `Box A` < `Box B` if:
 0.  `A.h < B.h` and `A.b == B.b` and `A.l == B.l`
 
 Overload operator `<<` for the class `Box()`.
-If  is an object of class Box:
+If `B` is an object of class Box:
 
 `cout << B` should print `B.l`, `B.b` and `B.h` on a single line separated by spaces.
 
 ### Constraints
 
+-   0 <= l,b,h <= 10^5
 
-
-Two boxes being compared using the  operator will not have all three dimensions equal.
+Two boxes being compared using the `<` operator will not have all three dimensions equal.
